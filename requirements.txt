@@ -9,3 +9,4 @@ pandas
 huggingface-hub
 kagglehub
 seaborn
+python-dotenv
