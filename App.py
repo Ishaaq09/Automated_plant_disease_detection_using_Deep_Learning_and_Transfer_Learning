@@ -195,10 +195,12 @@ if upload_file is not None:
         
     load_dotenv()
     
+    
+    HF_TOKEN = st.secrets.get("HF_TOKEN") or os.getenv("HUGGINGFACE_TOKEN")
 
     client = InferenceClient(
         provider="featherless-ai",
-        api_key=os.environ.get('HUGGINGFACE_TOKEN'),
+        api_key=HF_TOKEN,
     )
     
     if "healthy" in readable_prediction.lower():
