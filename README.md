@@ -2,6 +2,8 @@
 
 This project detects plant leaf diseases using a Deep Learning CNN model trained on the PlantVillage Dataset. It supports common crops such as Apple, Grape, Corn, Tomato, Potato, etc. A ResNet50 Transfer Learning Model is trained and fine-tuned for high accuracy, and then deployed for real-time image prediction with Grad-CAM heatmap
 
+**Link**: https://automated-plant-disease-detection.streamlit.app/
+
 ---
 
 ## Problem Statement
